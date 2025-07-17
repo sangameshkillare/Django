@@ -1,0 +1,77 @@
+#@@@@manage.py-----> this is the imp file for if we want to work with django
+#In django project manage.py is a command-line utility that that servers center script and manging our django project .
+#this file is automatically created when we create a new django project using the django-admin startproject command.
+
+
+
+
+#@@@@__init__.py --->
+
+
+#it makes the directory of pyrhon pacage . this file is empty but it must exist for python to recognise the directory as a package.
+
+
+#@@@asgi.py --->
+
+
+# asgi.py -Asynchronous(asecquense wise ) server gateway interface .Entry point for asgi compitible web server  . it is use for deploying django applications using asgi servers like daphne or uvicorn . it is used for handling asynchronous requests and websockets .
+
+
+#@@@ settinng.py ----->
+
+# this is main configuration file for out django project . it contains settings for -
+# -) database congiguration
+# -)installed apps
+# -) middleware
+# -) static files
+#-) templates
+#-) security sett
+
+
+#@@@ url.py---->
+
+
+# this is useed to configure the path . it sefines url pattern and maps them to views 
+
+
+
+
+#@@@ wsgi.py --->
+
+
+
+#(web server gateway interface )
+
+# this is the entry point for wsgi compatible web servers . it is used for deploying django applications using wsgi servers like gunicorn or uWSGI . it handles synchronous requests and serves the application to the web server.
+
+
+
+
+#@@@ django-admin startproject myproject----->
+
+
+# create the new project 
+
+
+
+#@@@ django-admin startapp myapp ----->
+
+# create a new app within the project . this command creates a new directory with the necessary files for a django app, including models.py, views.py, and urls.py. apps are used to organize related functionality within a django project.
+
+
+
+
+#@@@@@@@@@@@@@@@ application stucture --------->
+
+
+#admin.py--- in this file we register our models 
+
+
+#apps.py ---it deon  configurations for thee application .
+
+# migrations --- Database migration of are application. 
+
+#tests.py ---inside this file write test for our application 
+
+#views.py ---writes the logic of application .
+

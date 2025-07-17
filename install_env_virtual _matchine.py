@@ -91,3 +91,15 @@
 #copy peast in cmd
 
 
+
+
+
+#$$$) insid3 the folder ->>>>>
+
+
+
+# cd to project file -> pip install virtual environment ->python -m venv myenv--> cd myenv _. scripts\activate
+
+
+
+
