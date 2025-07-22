@@ -1,0 +1,62 @@
+#URLS - (uniform measure location)are resposible for mapping a wen address .
+
+
+# django is a powerful web framework , that allows developers to create robust(strong) and scalable .
+# URL- uniform resourse locator  -- in django urls are define in URLS.PY  file , URLS.PY  contain list of url pattern that maps to views.
+#  A url pattern is define as a regular expression that match the urls.
+
+# when a user request  a url  django goes through the list of url pattern defined in URLS.PY  file and finds the first patern that matches the url.
+
+# if no url pattern match django returns 404 error ( page not found error)
+
+# the url .py file provides a way to map urls to views, which are the functions that handle the request and return a response.
+
+
+#VEIEWS 
+
+
+# in django we create 2 type of views  
+
+# !)  function base view 
+
+# 2) class base view
+
+
+# Q) whart is a view and urls in django ?
+
+
+# a view in django is a python function or class that takes a web request and returns a web response. it contains the logic to process the user request and return the appropriate response, such as rendering a template or returning JSON data.
+
+
+
+
+#^^ function base views --
+
+
+# function base views are the simplest type of views in django. they are defined as a python function that takes a request object and returns a response object. the function can contain any logic to process the request and return the appropriate response.
+# example--
+
+
+
+# def home (requst):
+#     return HttpResponse("welcome to my appfrom views.py")
+
+
+
+
+# a function base view is a python function that takes a web request and web response this response can be html content. This response can be html content of a web page od a redirect .
+
+# Each view function takes an httprequest as a parameter.
+
+
+
+#^^ TEMPLATES - is a  text base file usually it contains .html file , that defines the structure and layout of a webpage .
+#  Templates arer not limited to html we can use them to genrate any text base file  or formate like xml,csv,json.
+
+# a  django template is a mix of static html content and dynamic content ,
+
+# purpose -
+
+# 1) to separate the presentation logic from the business logic of the application.
+# 2) to allow developers to create reusable components that can be used across multiple pages of the application.
+# to maintain dry principle (don't repeat yourself) in the codebase.
