@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <link rel="stylesheet" href="{% static 'App1/css/style.css' %}">
+</head>
+<body>
+    <main>
+        <h1>Hello from Django!</h1>
+        <h2>Welcome, {{ name }}!</h2>
+        <img src="{% static 'App1/images/road-2617557_1280.jpg' %}" alt="Sample Image">
+    </main>
+</body>
+</html>
+

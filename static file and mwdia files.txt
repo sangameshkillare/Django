@@ -1,0 +1,10 @@
+This files dont change base  on the user input know as static.
+
+
+Q - why do we use static files ?
+
+
+
+# what is {{'key}} curlyy breacess?
+
+in django templates is ude for outputing variable. {{}} this is called  template expression .
