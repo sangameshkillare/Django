@@ -1,0 +1,10 @@
+body{
+    background-color: aquamarine;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    display: inline-block;
+    background: #b1a2a2;
+}

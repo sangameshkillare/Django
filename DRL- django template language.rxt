@@ -1,0 +1,48 @@
+DTL is a min language in django .
+dttl is designed to strike a balance between power and ease.
+it designed to feel comfortable to throe who eorked on HRML .
+
+<h1> hello , {{user.username}} </h1>
+
+
+flask -
+JINGA2 - it is template engin just like DTL.
+ 
+It is used in python  web framework , for example flask  but some time in django as well . 
+if we want to insrtall jinga tool in django --python pip install jinj2a tool .
+
+
+# VARIABLE S -  it is a placeholder and  it is used to display dynamic content in html .
+django takes values from our python code (views, model) and insert them into the template for that we use {{variable -name}}.
+
+
+rule to declare variable - 1) name consist of any combination of alpha numerric charecter and underscore .
+2) could not start with underscore .
+3) variale name cannot have spaces .
+ 
+
+
+@@ FILTER IN DTL-
+
+ filter are userd to modify or format the variable  before displaying them on web page .
+
+
+ syntax - {{variable-name/ filter-name}}
+
+
+ definamtion -- filter is a function  that takes a variable and return  a modified version of it .
+
+filter latest format values without changing the original data .
+
+
+
+FILTERS   |  PERPOSE 
+
+lower         converts to lower case
+upper         converts to  uppercase
+length        get length of list / string 
+date          formate a date
+default       use default values if varible is null
+truncate      trim a string
+add           add a number 
+capfirst        --
