@@ -1,0 +1,15 @@
+@@@ requirement --- 
+
+#CRUD OPERATIONS
+
+hypertext transform protocol
+http- it defines what kind of action we want to perform on a data on the server.
+
+GET- read the data
+POST- create/add the data
+PUT - update the data
+DELETE -Remove the data 
+
+
+
+REDIRECT -redirect the user to another url

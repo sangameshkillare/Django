@@ -1,0 +1,33 @@
+#what is necesscity  of database in web deve?
+
+-> in web dev databases are essential for storing managing and retriving data efficiently .
+database allow dynamic content generation ,user authentication , auothrization ,transaction .
+without database webapplication could be static and unable to handle  the data.
+
+# django models and databases 
+
+-> django simplifies the ccreation and management of database through its powerful ORM (object relational mapping) system .
+ 
+
+ # ORM -> it allow to interact with our database  using python code instead of writing sql queries manually .
+ -> it convert python classes in to database table also it convert python object into database record.
+
+
+ django is a python web framework that helps you build website quickly and clean ,
+ practical code .  one of its most powerful features called ORM .
+ it let you  wor  with database using py code instead of writing  SQL  queries by hand .
+ DJANGOS ORM is the big reasone why many dev chooes this framework .ve use a great mix of  simplicity and control.
+ Features - build in  db migrations , smrt querying .
+
+
+
+ # what is  models - django models are simple python  classes that defines the structure of our databases= table  and each attribute in the model corresponds to a db feild .
+ we define django models in models .py file  in our application.
+  django models are pytgon classes that define the structur of your database table .
+
+ default django database .->
+  django by default provide sqllite 3 database. if we want to use this DB then we are not require todo any configration .
+  then we start s new django project, the default db configured is sqlite .
+  for small to  midium application SQLIITE 3 is more enough but if application is bigger then django support other satabasea , oracle ,myspl, potgresql etc .
+
+   # wht is sqlite3 -> it is a lite weight file base database .

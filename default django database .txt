@@ -1,0 +1,28 @@
+django by default provides sqllite 3 database .
+whaen you start a new  django project , the default is configered sqllite3 .
+
+
+if we want to use any other database then we have to change  the configuration for databses inside settings.py file .
+
+
+engine -name of databse engine 
+name -databse nameuser - database login user name 
+password-databse login password 
+host- the machine on which databses server is running 
+port - the port number of on which databse server is runnung
+
+
+FEILDS----\
+
+1) - charfeild - for storing of a fix length . (max leangth =100) this is a attribute
+2) - TEXTFEILD - description (models.textfeilf())
+3) - intergerfeilg - a feilf for stoing int value - 
+4) - floatfeild -
+5) - decimalfeild - a feild for storing decimal values  with fix precision(accurcy).models.decimalfeild(max-degit=10 , decimal-place=2)
+5) -bolleanfeild
+7) datefeild
+8) datetimefeild
+9) emailfeild
+10) urlfeild
+11)filefeild
+12) imagefeild
